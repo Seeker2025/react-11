@@ -31,7 +31,7 @@ try{
         <div style={{maxWidth: 1170, margin: '0 auto', padding: 20}}>
            { 
           this.state.pokemon ?
-          <img src={this.state.pokemon} alt="Pokemon" />
+          <img src={this.state.pokemon} width="130" alt="Pokemon" />
           :<p>No!</p>
            }
        

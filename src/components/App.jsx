@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Pokemon from "./pokemon";
 import Pokemon02 from "./pokemon02";
+import Pokemon03 from "./pokemon03";
 
 export default class App extends Component {
   // state = {
@@ -37,6 +38,7 @@ export default class App extends Component {
 
         <Pokemon/>
         <Pokemon02/>
+        <Pokemon03/>
 
     </div>
   )};
